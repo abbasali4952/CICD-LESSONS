@@ -1,0 +1,33 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Node.js and build output
+node_modules/
+dist/
+build/
+coverage/
+playwright-report/
+test-results/
+*.log
+
+# Python environments and generated files
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Logs and temporary files
+logs/
+*.tmp
+*.swp
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
